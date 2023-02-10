@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "functiondefextractor"
+version = "0.1.2"
+description = ""
+authors = [
+    "Brijesh Krishnan <brijesh.krishnank@philips.com>",
+    "Sannihith Reddy <sannihith.reddyp@philips.com>",
+    "Kacper Łukawski <lukawski.kacper@gmail.com>"
+]
+readme = "README.md"
+packages = [{include = "functiondefextractor"}]
+
+[tool.poetry.dependencies]
+python = ">=3.8,<=3.11"
+xlrd = "2.0.1"
+xlsxwriter = "3.0.8"
+pandas = "1.5.3"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
